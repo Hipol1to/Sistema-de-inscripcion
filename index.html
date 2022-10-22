@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Sistema de inscripcion</title>
+<!-- flow digo estilos -->
+<link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+ 
+<!-- forromulario -->
+<form id="subject-form">
+
+ <h1>Inscripcion</h1>
+
+ <div class="step">
+  <a><b>Informacion Personal</b></a>
+  <input type="text" name="name" placeholder="Nombre">
+  <input type="text" name="province" placeholder="Provincia">
+  <input type="text" name="city" placeholder="Ciudad">
+  <input type="text" name="sector" placeholder="Sector">
+  <input type="text" name="street" placeholder="Calle">
+  <a><b>Carrera</b></a>
+  <select class="" id="career" name="career">
+   <option value="" selected="">
+     Seleccionar Carrera
+   </option>
+   <option value="Software">Software</option>
+   <option value="Redes">Redes</option>
+   <option value="Multimedia">Multimedia</option>
+ </select>
+ </div>
+
+<div class="step" id="stp2"></div>
+
+<div class="step" id="stp3"></div>
+
+
+<!-- bostones -->
+<div>
+ <button type="button" id="nextBtn" >Siguiente</button>
+ <button type="button" id="prevBtn" >Atras</button>
+ <button type="button" id="niceBtn" >=)</button>
+</div>
+<!-- fin bostones -->
+
+<!-- indiscadores -->
+<div class="indicators" id="wepale">
+ <span class="indicator"></span>
+ <span class="indicator"></span>
+ <span class="indicator"></span>
+ <!-- fin de indicadores -->
+</div>
+</form>
+<script src="./assets/js/jquery/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
+<!-- <script src="./assets/js/index.js"></script> -->
+<script src="./assets/js/JqueryHelper.js"></script>
+</body>
+</html>

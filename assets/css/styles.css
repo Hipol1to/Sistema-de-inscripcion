@@ -1,0 +1,82 @@
+/* base */
+* {
+ box-sizing: border-box;
+}
+body{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+ text-align: center;
+}
+
+/* forromulario */
+#subject-form {
+ background-color: #4c7aaf;
+ margin: 100px auto;
+ width: 70%;
+ padding: 40px;
+ min-width: 300px;
+ color: white;
+}
+
+/* inputs */
+input {
+ padding: 10px;
+ display: block;
+ width: 100%;
+ font-size: 18px;
+ margin: 10px 0px;
+}
+input.invalid {
+ border-color: red;
+}
+
+/* steps */
+.step {
+ display: none;
+}
+
+/* bostones */
+
+.buttons {
+ text-align: rigt;
+}
+
+button {
+ background-color: #4cafa7;
+ color: white;
+ border: none;
+ padding:  10px 20px;
+ font-size: 18px;
+ cursor: pointer;
+ margin-left: 15px;
+ float: right
+}
+button:hover {
+ opacity: 0.8;
+}
+#prevBtn {
+ background-color: #bbbbbb;
+}
+
+/* indiscadores */
+.indicators {
+ text-align: center;
+ margin-top: 70px;
+}
+.indicator {
+ height: 15px;
+ width: 15px;
+ margin: 0 2px;
+ background-color: #bbbbbb;
+ border: none;
+ border-radius: 50%;
+ display: inline-block;
+ opacity: 0.5;
+}
+.indicator.active {
+ opacity: 1;
+}
+.indicator.finish {
+ background-color: #4de91e;
+}
